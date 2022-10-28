@@ -1,5 +1,5 @@
 <!-- parent component -->
 <div class="container">
-    <app-book-cart *ngFor="let eachBook of books" [book]="eachBook"></app-book-cart>
+    <app-book-cart *ngFor="let eachBook of books" [book]="eachBook" (clickEventEmitter)="addToCart($event)"></app-book-cart>
 </div>
 

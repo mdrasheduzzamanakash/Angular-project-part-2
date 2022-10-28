@@ -35,5 +35,15 @@ export class ProgBooksComponent implements OnInit {
     },
   ];
 
+  carts : string[] = [
+    
+  ]
+
+  addToCart(event : string) {
+    // console.log(event);
+    this.carts.push(event)
+    console.log(this.carts);
+  }
+
   ngOnInit(): void {}
 }
