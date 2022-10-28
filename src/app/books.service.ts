@@ -65,28 +65,22 @@ export class BooksService {
       src: 'https://m.media-amazon.com/images/I/81DeG-RstrL._AC_UY218_.jpg',
     },
     {
-      name: 'Bluey 5-Minute Stories',
+      name: '365 Bedtime Stories and Rhymes',
       author: 'Bluey',
       price: 13,
-      src: 'https://m.media-amazon.com/images/I/81DeG-RstrL._AC_UY218_.jpg',
+      src: 'https://m.media-amazon.com/images/I/81-n+wEunHL._AC_UY218_.jpg',
     },
     {
-      name: 'Bluey 5-Minute Stories',
+      name: 'The First Notes: The Story of Do, Re, Mi',
       author: 'Bluey',
       price: 13,
-      src: 'https://m.media-amazon.com/images/I/81DeG-RstrL._AC_UY218_.jpg',
+      src: 'https://m.media-amazon.com/images/I/612eM+sx2RL._AC_UY218_.jpg',
     },
     {
-      name: 'Bluey 5-Minute Stories',
+      name: 'Five-Minute Stories - Over 50 Tales',
       author: 'Bluey',
       price: 13,
-      src: 'https://m.media-amazon.com/images/I/81DeG-RstrL._AC_UY218_.jpg',
-    },
-    {
-      name: 'Bluey 5-Minute Stories',
-      author: 'Bluey',
-      price: 13,
-      src: 'https://m.media-amazon.com/images/I/81DeG-RstrL._AC_UY218_.jpg',
+      src: 'https://m.media-amazon.com/images/I/81lYmyWJBcL._AC_UY218_.jpg',
     },
   ];
 

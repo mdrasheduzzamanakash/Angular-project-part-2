@@ -1,2 +1,3 @@
-<p>story-books works!</p>
-<app-book-cart></app-book-cart>
+<div class="container">
+    <app-book-cart *ngFor="let eachBook of storyBooks" [book]="eachBook" (clickEventEmitter)="addCartItem($event)"></app-book-cart>
+</div>

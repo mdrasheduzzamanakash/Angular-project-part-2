@@ -18,8 +18,8 @@ export class AcadBooksComponent implements OnInit {
 
   addToCart(event: string) {
     // add to the service
-    this.cartService.setCarts(event);
-    // console.log(this.cartService.getCarts())
+    this.cartService.setCartAcaNames(event);
+    // console.log(this.cartService.getAcaNames())
   }
 
   ngOnInit(): void {}

@@ -1,12 +1,14 @@
 import { Component, OnInit } from '@angular/core';
+import { CartService } from 'src/app/cart.service';
 
 @Component({
   selector: 'app-prog-books',
   templateUrl: './prog-books.component.html',
   styleUrls: ['./prog-books.component.css'],
+  providers: [CartService],
 })
 export class ProgBooksComponent implements OnInit {
-  constructor() {}
+  constructor(private cartService : CartService) {}
 
   books = [
     {
@@ -35,14 +37,16 @@ export class ProgBooksComponent implements OnInit {
     },
   ];
 
-  carts : string[] = [
+  // carts : string[] = [
     
-  ]
+  // ]
 
-  addToCart(event : string) {
+  addToCart(name : string) {
     // console.log(event);
-    this.carts.push(event)
-    console.log(this.carts);
+    // this.carts.push(event)
+    // console.log(this.carts);
+    this.cartService.setCartProgNames(name)
+    // console.log(this.cartService.getCartProgNames());
   }
 
   ngOnInit(): void {}

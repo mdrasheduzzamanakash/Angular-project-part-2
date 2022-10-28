@@ -1,1 +1,20 @@
-<p>cart works!</p>
+<div class="container">
+    <h1>Programming Books</h1>
+    <ul>
+        <li *ngFor="let eachCart of progCarts"> {{eachCart}} <button>X</button></li>
+    </ul>    
+</div>
+<br>
+<div class="container">
+    <h1>Academic Books</h1>
+    <ul>
+        <li *ngFor="let eachCart of acdemicCarts"> {{eachCart}} <button>X</button></li>
+    </ul>    
+</div>
+<br>
+<div class="container">
+    <h1>Story Books</h1>
+    <ul>
+        <li *ngFor="let eachCart of storyCarts"> {{eachCart}} <button>X</button></li>
+    </ul>    
+</div>

@@ -4,9 +4,11 @@
     src={{book.src}}
     alt="clean code"
   />
-  <p class="book-name">{{book.name}}</p>
+  <div class="description">
+    <p class="book-name">{{book.name}}</p>
   <p class="author-name">{{book.author}}</p>
   <p class="price">{{book.price}}$</p>
+  </div>
   
   <div class="button">
     <button  (click)="addCart()">Add to Cart</button>

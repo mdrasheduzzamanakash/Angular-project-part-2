@@ -8,14 +8,30 @@ export class CartService {
   constructor() { }
 
 
-  carts : string[] = [];
 
-  getCarts() {
-    return this.carts;
+  cartProgNames : string[] = ['demo books prog'];
+  cartAcaNames : string[] = ['demo books aca'];
+  cartStoryNames : string[] = ['demo books story'];
+
+  getCartProgNames(): string[] {
+    return this.cartProgNames;
+  }
+  getAcaNames(): string[] {
+    return this.cartAcaNames;
+  }
+  getStroryNames(): string[] {
+    return this.cartStoryNames;
   }
 
-  setCarts(cart : string) {
-    this.carts.push(cart);
+  setCartProgNames(name: string) {
+    this.cartProgNames.push(name);
+    console.log(this.cartProgNames);
   }
-  
+  setCartAcaNames(name: string) {
+    this.cartAcaNames.push(name);
+  }
+  setCartsStoryNames(name: string) {
+    this.cartStoryNames.push(name);
+  }
+
 }
